@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/tublack-logo.JPG';
+import logo from '../assets/tublack-logo.jpg';
 
 interface BrandLogoProps {
   variant?: 'full' | 'compact' | 'monogram';
