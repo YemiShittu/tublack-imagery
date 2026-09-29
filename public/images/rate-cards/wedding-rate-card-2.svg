@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 980" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rcbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e2246"/>
+      <stop offset="40%" stop-color="#0a172e"/>
+      <stop offset="100%" stop-color="#081224"/>
+    </linearGradient>
+    <radialGradient id="rcglow" cx="50%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="980" fill="url(#rcbg)"/>
+  <rect width="720" height="980" fill="url(#rcglow)"/>
+
+  <!-- Outer Editorial Borders in Navy & Sky -->
+  <rect x="25" y="25" width="670" height="930" fill="none" stroke="#93c5fd" stroke-width="1.2" opacity="0.4"/>
+  <rect x="35" y="35" width="650" height="910" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Corner embellishments -->
+  <path d="M 35 55 L 35 35 L 55 35" fill="none" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M 665 35 L 685 35 L 685 55" fill="none" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M 35 925 L 35 945 L 55 945" fill="none" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M 665 945 L 685 945 L 685 925" fill="none" stroke="#93c5fd" stroke-width="2"/>
+
+  <!-- Header Branding with TuBLack IMAGERY -->
+  <text x="360" y="85" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" letter-spacing="4" fill="#ffffff" font-weight="800">TuBLack</text>
+  <text x="360" y="106" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" letter-spacing="6" fill="#93c5fd" font-weight="600" text-transform="uppercase">IMAGERY · LAGOS</text>
+
+  <line x1="80" y1="135" x2="640" y2="135" stroke="#93c5fd" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Package Tier & Title -->
+  <text x="360" y="185" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" letter-spacing="4" fill="#93c5fd" font-weight="600" text-transform="uppercase">Heirloom Grand Collection</text>
+  <text x="360" y="240" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="44" font-weight="600" fill="#ffffff">Wedding Package II</text>
+  <text x="360" y="280" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#cbd5e1" font-style="italic">"The ultimate royal documentation from preparation to the afterparty."</text>
+
+  <!-- Ideal For pill text -->
+  <rect x="170" y="315" width="380" height="34" rx="4" fill="#ffffff" fill-opacity="0.06" stroke="#93c5fd" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="360" y="337" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#e2e8f0">Multi-Day Celebrations, Traditional + White Wedding Grandeur</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="380" x2="660" y2="380" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+  <text x="60" y="398" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" letter-spacing="2" fill="#93c5fd" font-weight="600" text-transform="uppercase">PACKAGE DELIVERABLES</text>
+
+  <!-- Features list -->
+  
+    <g transform="translate(60, 410)">
+      <circle cx="10" cy="10" r="4" fill="#93c5fd" opacity="0.9"/>
+      <text x="32" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#f8fafc" font-weight="400">Full-day coverage across both Traditional & White Wedding</text>
+    </g>
+  
+    <g transform="translate(60, 464)">
+      <circle cx="10" cy="10" r="4" fill="#93c5fd" opacity="0.9"/>
+      <text x="32" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#f8fafc" font-weight="400">3 photographers (Lead, Second Shooter, Detail Specialist)</text>
+    </g>
+  
+    <g transform="translate(60, 518)">
+      <circle cx="10" cy="10" r="4" fill="#93c5fd" opacity="0.9"/>
+      <text x="32" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#f8fafc" font-weight="400">Complimentary Pre-Wedding Couple Shoot in Lagos</text>
+    </g>
+  
+    <g transform="translate(60, 572)">
+      <circle cx="10" cy="10" r="4" fill="#93c5fd" opacity="0.9"/>
+      <text x="32" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#f8fafc" font-weight="400">500+ master retouched high-resolution images</text>
+    </g>
+  
+    <g transform="translate(60, 626)">
+      <circle cx="10" cy="10" r="4" fill="#93c5fd" opacity="0.9"/>
+      <text x="32" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#f8fafc" font-weight="400">Grand 30-page 12x12 bespoke Italian leather heirloom album</text>
+    </g>
+  
+    <g transform="translate(60, 680)">
+      <circle cx="10" cy="10" r="4" fill="#93c5fd" opacity="0.9"/>
+      <text x="32" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#f8fafc" font-weight="400">Two duplicate 8x8 parent albums for both families</text>
+    </g>
+  
+    <g transform="translate(60, 734)">
+      <circle cx="10" cy="10" r="4" fill="#93c5fd" opacity="0.9"/>
+      <text x="32" y="14" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#f8fafc" font-weight="400">Luxury branded USB keepsake box + private VIP cloud vault</text>
+    </g>
+  
+
+  <!-- Footer / Consultation Callout -->
+  <rect x="50" y="810" width="620" height="95" rx="6" fill="#081426" stroke="#93c5fd" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="360" y="845" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" fill="#ffffff" font-weight="600">Customized Quotes &amp; Destination Availability</text>
+  <text x="360" y="872" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#94a3b8">Every occasion is unique. Contact us to tailor hours, locations, or deliverables.</text>
+
+  <!-- Bottom Contact note -->
+  <text x="360" y="932" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748b" letter-spacing="1">hello@tublackimagery.com · Lagos, Nigeria · +234 800 000 0000</text>
+</svg>
