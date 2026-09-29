@@ -5,7 +5,16 @@ export const SITE_CONFIG = {
   location: 'Lagos, Nigeria',
   studioAreas: 'Nigeria',
   email: 'info@tublackimagery.com',
-  phoneDisplay: '+234 808 427 5652',
+  phoneNumbers: [
+    {
+      display: '+234 808 427 5652',
+      whatsapp: '2348084275652',
+    },
+    {
+      display: '+234 902 288 1138',
+      whatsapp: '2349022881138',
+    },
+  ],
   whatsappNumber: '2348084275652',
   get whatsappUrl() {
     const message = encodeURIComponent(

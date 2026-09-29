@@ -73,15 +73,20 @@ export const Footer: React.FC = () => {
                   {SITE_CONFIG.email}
                 </a>
               </li>
-              <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-[#60a5fa]" />
-                <a
-                  href={`tel:${SITE_CONFIG.phoneDisplay}`}
-                  className="hover:text-white transition-colors text-slate-300"
-                >
-                  {SITE_CONFIG.phoneDisplay}
-                </a>
-              </li>
+              {SITE_CONFIG.phoneNumbers.map((phone) => (
+  <li key={phone.whatsapp} className="flex items-center gap-2.5">
+    <Phone className="w-4 h-4 text-[#60a5fa] shrink-0" />
+
+    <a
+      href={`https://wa.me/${phone.whatsapp}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-white transition-colors text-slate-300"
+    >
+      {phone.display}
+    </a>
+  </li>
+))}
             </ul>
 
             {/* Social Media Links */}
