@@ -5,6 +5,7 @@ import {
   MessageSquare,
   Mail,
   Phone,
+  ChevronDown,
 } from 'lucide-react';
 import { SITE_CONFIG } from '../data/config';
 
@@ -23,7 +24,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
     preferredDate: '',
     location: '',
     estimatedBudget: '',
-    hours: 'Full Day (6-8 hours)',
+    hours: 'Full Day (8-14 hours)',
     message: '',
   });
 
@@ -214,7 +215,7 @@ Details: ${
                     preferredDate: '',
                     location: '',
                     estimatedBudget: '',
-                    hours: 'Full Day (6-8 hours)',
+                    hours: 'Full Day (8-14 hours)',
                     message: '',
                   });
                 }}
@@ -362,43 +363,47 @@ Details: ${
                     <span className="text-red-500">*</span>
                   </label>
 
-                  <select
-                    id="shootType"
-                    value={formData.shootType}
-                    onChange={(e) =>
-                      setFormData({
-                        ...formData,
-                        shootType: e.target.value,
-                      })
-                    }
-                    className="w-full px-4 py-3 bg-white border border-slate-300 rounded text-sm text-[#0b1b38] focus:outline-none focus:border-[#0b1b38] focus:ring-1 focus:ring-[#0b1b38] transition-colors"
-                  >
-                    <option value="Wedding">
-                      Wedding Photography
-                    </option>
-                    <option value="Birthday">
-                      Birthday Photography
-                    </option>
-                    <option value="Portrait">
-                      Portrait Photography
-                    </option>
-                    <option value="Pre-Wedding">
-                      Pre-Wedding Photography
-                    </option>
-                    <option value="Event">
-                      Event Photography
-                    </option>
-                    <option value="Couple">
-                      Couple Photography
-                    </option>
-                    <option value="Lifestyle">
-                      Lifestyle Photography
-                    </option>
-                    <option value="Corporate">
-                      Corporate Coverage
-                    </option>
-                    <option value="Other">Other</option>
-                  </select>
+                  <div className="relative">
+                    <select
+                      id="shootType"
+                      value={formData.shootType}
+                      onChange={(e) =>
+                        setFormData({
+                          ...formData,
+                          shootType: e.target.value,
+                        })
+                      }
+                      className="w-full appearance-none px-4 py-3 pr-10 bg-white border border-slate-300 rounded text-sm text-[#0b1b38] focus:outline-none focus:border-[#0b1b38] focus:ring-1 focus:ring-[#0b1b38] transition-colors"
+                    >
+                      <option value="Wedding">
+                        Wedding Photography
+                      </option>
+                      <option value="Birthday">
+                        Birthday Photography
+                      </option>
+                      <option value="Portrait">
+                        Portrait Photography
+                      </option>
+                      <option value="Pre-Wedding">
+                        Pre-Wedding Photography
+                      </option>
+                      <option value="Event">
+                        Event Photography
+                      </option>
+                      <option value="Couple">
+                        Couple Photography
+                      </option>
+                      <option value="Lifestyle">
+                        Lifestyle Photography
+                      </option>
+                      <option value="Corporate">
+                        Corporate Coverage
+                      </option>
+                      <option value="Other">Other</option>
+                    </select>
+
+                    <ChevronDown className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
+                  </div>
                 </div>
               </div>
 
@@ -505,33 +510,37 @@ Details: ${
                     Number of Hours
                   </label>
 
-                  <select
-                    id="hours"
-                    value={formData.hours}
-                    onChange={(e) =>
-                      setFormData({
-                        ...formData,
-                        hours: e.target.value,
-                      })
-                    }
-                    className="w-full px-4 py-3 bg-white border border-slate-300 rounded text-sm text-[#0b1b38] focus:outline-none focus:border-[#0b1b38] focus:ring-1 focus:ring-[#0b1b38] transition-colors"
-                  >
-                    <option value="2-4 hours (Studio / Portrait / Short Event)">
-                      2 - 4 hours (Studio / Portrait / Short Event)
-                    </option>
+                  <div className="relative">
+                    <select
+                      id="hours"
+                      value={formData.hours}
+                      onChange={(e) =>
+                        setFormData({
+                          ...formData,
+                          hours: e.target.value,
+                        })
+                      }
+                      className="w-full appearance-none px-4 py-3 pr-10 bg-white border border-slate-300 rounded text-sm text-[#0b1b38] focus:outline-none focus:border-[#0b1b38] focus:ring-1 focus:ring-[#0b1b38] transition-colors"
+                    >
+                      <option value="2-4 hours (Studio / Portrait / Short Event)">
+                        2 - 4 hours (Studio / Portrait / Short Event)
+                      </option>
 
-                    <option value="6-8 hours (Half Day / Birthday Gala)">
-                      6 - 8 hours (Half Day / Birthday Gala)
-                    </option>
+                      <option value="6-8 hours (Half Day / Birthday Gala)">
+                        6 - 8 hours (Half Day / Birthday Gala)
+                      </option>
 
-                    <option value="Full Day (8-14 hours)">
-                      Full Day (8 - 14 hours)
-                    </option>
+                      <option value="Full Day (8-14 hours)">
+                        Full Day (8 - 14 hours)
+                      </option>
 
-                    <option value="Multi-Day (Traditional + White Wedding)">
-                      Multi-Day (Traditional + White Wedding)
-                    </option>
-                  </select>
+                      <option value="Multi-Day (Traditional + White Wedding)">
+                        Multi-Day (Traditional + White Wedding)
+                      </option>
+                    </select>
+
+                    <ChevronDown className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" />
+                  </div>
                 </div>
               </div>
 
