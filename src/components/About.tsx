@@ -1,5 +1,6 @@
 import React from 'react';
 import { Camera, MapPin, Eye, Sparkles } from 'lucide-react';
+import aboutVideo from '../assets/about.mp4';
 
 export const About: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ export const About: React.FC = () => {
           <div className="lg:col-span-5 relative">
           <div className="relative aspect-[4/5] rounded-xl overflow-hidden border border-slate-200 bg-slate-100 shadow-xl">
             <video
-                  src="src/assets/about.mp4"
+                  src={aboutVideo}
                   autoPlay
                   muted
                   playsInline
